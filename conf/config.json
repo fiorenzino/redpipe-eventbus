@@ -1,6 +1,7 @@
 {
-  "http_port": 9000,
+  "http_port": 9002,
   "db_url": "jdbc:hsqldb:file:db/wiki",
   "db_driver": "org.hsqldb.jdbcDriver",
-  "db_max_pool_size": 80
+  "db_max_pool_size": 80,
+  "clustered": false
 }

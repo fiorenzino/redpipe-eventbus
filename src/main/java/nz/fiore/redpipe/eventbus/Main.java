@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         new Server()
                 .start(UserServiceRs.class)
-                .subscribe(v -> System.err.println("Server started"),
+                .subscribe(v -> System.err.println("Deploy is completed"),
                         x -> x.printStackTrace());
     }
 }
